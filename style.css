@@ -1,0 +1,105 @@
+﻿
+.gallery-title
+{
+    font-size: 36px;
+    color: #42B32F;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+.gallery-title:after {
+    content: "";
+    position: absolute;
+    width: 7.5%;
+    left: 46.5%;
+    height: 45px;
+    border-bottom: 1px solid #5e5e5e;
+}
+.filter-button 
+{
+  background-color: white;
+    border-radius: 6px;
+    color: black;
+    padding: 5px 17px;
+
+}
+.filter-button:hover
+
+{
+    background-color: #8b0110;
+    border-radius: 6px;
+    color: #fff;
+    padding: 5px 17px;
+	text-decoration : none;
+	cursor: pointer;
+}
+.filter-button:active{
+	
+	background-color: #8b0110;
+    border-radius: 6px;
+    color: #fff;
+    padding: 5px 17px;
+	text-decoration : none;
+}
+
+	
+.port-image
+{
+    width: 100%;
+}
+
+.gallery_product
+{
+    margin-bottom: 0px;
+	
+}
+.col-lg-3{
+	padding-left: 0px;
+	padding-right : 0px;
+}
+
+.p1{
+	text-align :center;
+	font-weight: 600;
+    line-height: 24px;
+    font-size: 18px;
+    color: #5b646e;
+	padding-bottom: 40px;
+	padding-top :100px;
+}
+$('.carousel').carousel({
+			  interval: 2000
+			})
+	
+
+	.navbar-inner {
+		background-color:transparent;
+	}
+	.i{
+	padding:3px;
+	margin: 3px;
+	color: gray;}
+	.title{
+	text-align:center;
+	color:8B0110;
+	}
+	.service-icon{
+	border: 1px solid;
+	border-radius:50%;
+	color:8B0110;
+	padding:10px 13px;
+	}
+	.service-disc{
+	position:relative;
+	}
+	
+	.work-filter ul li a.active {
+    background-color: #8b0110;
+    border-radius: 6px;
+    color: #fff;
+    padding: 5px 17px;
+	}
+	
+	.strong1{
+		font-weight: 800px;
+	}
